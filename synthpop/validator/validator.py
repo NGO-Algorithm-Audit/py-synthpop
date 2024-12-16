@@ -40,7 +40,7 @@ class Validator:
         self.default_method_validator(step=step)
         self.method_validator(step=step)
         self.visit_sequence_validator(step=step)
-        # self.predictor_matrix_validator(step=step)
+        self.predictor_matrix_validator(step=step)
         self.proper_validator(step=step)
         self.cont_na_validator(step=step)
         self.smoothing_validator(step=step)

@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-synthpop"
+description = "Python implementation of the R package synthpop for generating synthetic data"
+authors = [
+    {name = "Algorithm Audit"}
+]
